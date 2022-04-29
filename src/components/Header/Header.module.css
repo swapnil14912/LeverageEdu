@@ -1,0 +1,34 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: rgb(32, 68, 124);
+}
+
+.Header__pOne{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Header__menu{
+    cursor: pointer;
+}
+
+.Header__One{
+    display: flex;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}

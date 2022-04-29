@@ -1,0 +1,101 @@
+.Auth {
+  background-color: rgb(32, 68, 124);
+  color: white;
+  margin: 0;
+}
+
+.Auth__pOne {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10rem 0 2vw 0;
+}
+
+.Auth__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Auth__formGroup{
+  padding:0.4rem 0.4rem 0.6rem 0.8rem;
+  margin: 1rem auto;
+}
+
+.Auth__formGroup input{
+  border:none;
+  outline: none;
+  background: transparent;
+  color: white;
+  width: 25rem;
+}
+
+.Auth__formGroup input::placeholder{
+  color: rgb(85, 113, 163);
+}
+
+.Auth__inputTwo {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10.5rem;
+}
+
+.Auth__inputTwo p{
+    cursor: pointer;
+}
+
+.Auth__labelCheckbox{
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.Auth__inputCheckbox[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  color: currentColor;
+  width: 1.55em;
+  height: 1.5em;
+  border: 0.1rem solid currentColor;
+  display: grid;
+  place-content: center;
+}
+
+.Auth__inputCheckbox[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  box-shadow: inset 1em 1em rgb(255, 255, 255);
+  background-color: CanvasText;
+  
+}
+
+.Auth__inputCheckbox[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.Auth__form button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  color: rgb(32, 68, 124);
+  background-color: white;
+  width: 10rem;
+  border: none;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+
+.Auth__pThree {
+  text-align: center;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(32, 68, 124);
+}

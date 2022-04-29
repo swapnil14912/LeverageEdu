@@ -1,0 +1,33 @@
+.Weather{
+    margin: 2rem auto;
+    width: 25rem;
+}
+
+.Weather__title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Weather__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.Weather__form input{
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.Weather__form button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    width: 6rem;
+    margin: 1rem auto;
+    border-radius: 0.3rem;
+    background-color: rgb(32, 68, 124);
+    color: white;
+    cursor: pointer;
+}

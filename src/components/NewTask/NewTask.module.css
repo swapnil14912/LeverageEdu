@@ -1,0 +1,62 @@
+.NewTask__options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.NewTask__options span{
+    font-size: 1.6rem;
+    color: rgb(32, 68, 124);
+}
+
+.NewTask__optionsButton{
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    transform: rotateZ(45deg);
+    cursor: pointer;
+    color: rgb(32, 68, 124);
+}
+
+.NewTask__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.NewTask__form input, .NewTask__form textarea {
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    resize: none;
+    font-size: 1.3rem;
+}
+
+.NewTask__form input::placeholder, .NewTask__form textarea::placeholder{
+    font-size: 1.3rem;
+    color: rgb(32, 68, 124, 0.5);
+}
+
+.NewTask__optionsTwo{
+    font-size: 1.5rem;
+    color: rgb(32, 68, 124);
+    padding: 1rem;
+}
+
+.NewTask__optionsTwo div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NewTask__optionsTwoButton{
+    border: none;
+    background-color: rgb(32, 68, 124);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

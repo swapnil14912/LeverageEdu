@@ -1,0 +1,40 @@
+.NewList{
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+}
+
+.NewList__buttonOne{
+    color: white;
+    background-color: rgb(32, 68, 124);
+    border: none;
+    border-radius: 100%;
+    font-size: 3.5rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0 0.7rem;
+}
+
+.NewList__form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.NewList__form input{
+    border: none;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    outline: none;
+    width: 80%;
+}
+
+.NewList__form button{
+    color: white;
+    background-color: rgb(32, 68, 124);
+    border: none;
+    border-radius: 100%;
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+}

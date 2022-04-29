@@ -1,0 +1,106 @@
+.Task {
+  border: 1px solid rgb(32, 68, 124);
+  padding: 1rem;
+  margin: 1rem;
+  width: 20rem;
+}
+
+.Task__One {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.Task__pOne {
+  color: rgb(32, 68, 124);
+  font-size: 1.7rem;
+}
+
+.Task__buttonOne {
+  color: rgb(32, 68, 124);
+  border: none;
+  background-color: transparent;
+  transform: rotateZ(90deg);
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.Task__Two {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.Task__pTwo {
+  font-size: 1.5rem;
+  color: rgba(32, 67, 124, 0.45);
+}
+
+.Task__buttonTwo {
+  color: white;
+  background-color: rgb(32, 68, 124);
+  border: none;
+  border-radius: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  transform: translateX(-0.5rem);
+  padding: 0 0.7rem;
+  cursor: pointer;
+}
+
+.Task__list {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.Task__data {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Task__buttonThree {
+  color: white;
+  background-color: rgb(32, 68, 124);
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+
+.Task__buttonFour {
+  margin: 0 0 0.7rem 0.6rem;
+  padding: 0.2rem 0.7rem;
+}
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.styled-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+.styled-checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  height: 1rem;
+  box-shadow: 1rem 0 0 green, 1.8rem 0 0 green, 1.8rem -0.8rem 0 green, 1.8rem -1.5rem green, 1.8rem -2rem green, 1.8rem -3rem green;
+  transform:  rotateZ(45deg) translateY(2.3rem) translateX(-2rem) translateZ(-3rem);
+}
